@@ -1,0 +1,21 @@
+site_name: PeiDan Notes
+site_url: https://Joanpei.github.io/notes
+
+site_dir: docs
+docs_dir: notes
+
+theme:
+    name: material
+    language: zh
+
+markdown_extensions:
+    - codehilite:
+        linenums: true
+        guess_lang: false
+    - toc:
+        permalink: true
+
+extra:
+    search:
+        language: 'en, jp'
+        tokenizer: '[\s\-\.]+'
